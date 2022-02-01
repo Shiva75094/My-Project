@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FullRegressionTest">
+	<listeners>
+		<listener class-name="com.crm.comcast.genericutility.ListenersImp" />
+	</listeners>
+	<test name="Test-Runner-1">
+		<classes>
+			<class name="TcreenShot.ScreenShotTest" />
+		</classes>
+	</test>
+</suite> 

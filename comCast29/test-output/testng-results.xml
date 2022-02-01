@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="92" started-at="2022-01-25T21:28:26 IST" finished-at="2022-01-25T21:28:26 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateContactTest.modifyContactTest()[pri:0, instance:com.crm.comCastContactTest.CreateContactTest@6acdbdf5]" name="modifyContactTest" class="com.crm.comCastContactTest.CreateContactTest"/>
+        <method signature="CreateOrgTest.modifyOrgTest()[pri:0, instance:com.crm.comCastOrgTest.CreateOrgTest@1f57539]" name="modifyOrgTest" class="com.crm.comCastOrgTest.CreateOrgTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.crm.comCastContactTest.CreateContactTest@6acdbdf5]" name="createContactTest" class="com.crm.comCastContactTest.CreateContactTest"/>
+        <method signature="CreateOrgTest.createOrgTest()[pri:0, instance:com.crm.comCastOrgTest.CreateOrgTest@1f57539]" name="createOrgTest" class="com.crm.comCastOrgTest.CreateOrgTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="92" started-at="2022-01-25T21:28:26 IST" finished-at="2022-01-25T21:28:26 IST">
+      <class name="com.crm.comCastOrgTest.CreateOrgTest">
+        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.crm.comCastOrgTest.CreateOrgTest@1f57539]" name="createOrgTest" duration-ms="4" started-at="2022-01-25T21:28:26 IST" finished-at="2022-01-25T21:28:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="modifyOrgTest()[pri:0, instance:com.crm.comCastOrgTest.CreateOrgTest@1f57539]" name="modifyOrgTest" duration-ms="3" started-at="2022-01-25T21:28:26 IST" finished-at="2022-01-25T21:28:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrgTest -->
+      </class> <!-- com.crm.comCastOrgTest.CreateOrgTest -->
+      <class name="com.crm.comCastContactTest.CreateContactTest">
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:com.crm.comCastContactTest.CreateContactTest@6acdbdf5]" name="createContactTest" duration-ms="13" started-at="2022-01-25T21:28:26 IST" finished-at="2022-01-25T21:28:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="modifyContactTest()[pri:0, instance:com.crm.comCastContactTest.CreateContactTest@6acdbdf5]" name="modifyContactTest" duration-ms="2" started-at="2022-01-25T21:28:26 IST" finished-at="2022-01-25T21:28:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContactTest -->
+      </class> <!-- com.crm.comCastContactTest.CreateContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

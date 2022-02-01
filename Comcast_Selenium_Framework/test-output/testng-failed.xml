@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FullRegressionTest]">
+  <listeners>
+    <listener class-name="com.crm.comcast.genericutility.ListenersImp"/>
+  </listeners>
+  <test thread-count="5" name="Test-Runner-1(failed)">
+    <classes>
+      <class name="TcreenShot.ScreenShotTest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="contactTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- TcreenShot.ScreenShotTest -->
+    </classes>
+  </test> <!-- Test-Runner-1(failed) -->
+</suite> <!-- Failed suite [FullRegressionTest] -->
